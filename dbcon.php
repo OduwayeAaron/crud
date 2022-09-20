@@ -1,0 +1,8 @@
+<?php
+    $con = mysqli_connect("localhost", "root", "", "blog");
+
+    if(!$con){
+        die("connect failure". mysqli_connect_error());
+    }
+
+?>
